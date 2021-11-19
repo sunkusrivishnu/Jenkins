@@ -11,6 +11,8 @@ class TestSum(unittest.TestCase):
         """
         data = [0, 1, 2, 3, 4, 5]
         result1 = factorial(data[0])
+        result2 = factorial(data[1])
         self.assertEqual(result1, 1)
+        self.assertEqual(result2, 1)
 if __name__ == '__main__':
     unittest.main()
