@@ -7,4 +7,3 @@ def factorial(n):
             fact = fact * n
             n = n - 1
         return fact
-print(factorial(6))
