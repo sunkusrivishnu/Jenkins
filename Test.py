@@ -2,7 +2,7 @@
 # Test case for finding factorial of a number
 import unittest
 
-from Prog1 import factorial
+from factorial import factorial
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
