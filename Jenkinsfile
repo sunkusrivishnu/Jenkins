@@ -8,7 +8,7 @@ agent any
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x Prog1.py"
+                sh "chmod u+x factorial.py"
                 sh "./factorial.py"
             }
         }
